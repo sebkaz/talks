@@ -1,0 +1,6 @@
+\beamer@sectionintoc {1}{Model Standardowy cz\IeC {\k a}stek elementarnych}{2}{0}{1}
+\beamer@sectionintoc {2}{Masa lepton\IeC {\'o}w}{4}{0}{2}
+\beamer@sectionintoc {3}{Macierz Mieszania}{5}{0}{3}
+\beamer@sectionintoc {4}{Symetria zapachowa przed i po 2012}{7}{0}{4}
+\beamer@sectionintoc {5}{Modele Nowej Fizyki - Two Higgs Doublet Model}{9}{0}{5}
+\beamer@sectionintoc {6}{Podsumowanie}{11}{0}{6}
