@@ -1,0 +1,6 @@
+# just to be safe
+**/*.json
+**/*.log
+
+# ranodm nonsense
+**/*.DS_Store
