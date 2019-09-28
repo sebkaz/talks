@@ -1,0 +1,56 @@
+\documentclass[12pt]{article}
+\usepackage{calc}
+\usepackage{color}
+\usepackage{amsfonts}
+\usepackage{latexsym}
+\usepackage{placeins}
+\ifx\pdftexversion\undefined
+  \usepackage[dvips]{graphicx}
+\else
+  \usepackage[pdftex]{graphicx}
+\fi
+\usepackage{amssymb}
+\usepackage{authblk}
+\usepackage{amsmath}
+\usepackage[utf8]{inputenc}
+\usepackage[OT4]{fontenc}
+
+\addtolength{\voffset}{-3.5cm} \addtolength{\textheight}{4cm}
+
+\renewcommand\Authfont{\scshape\small}
+\renewcommand\Affilfont{\itshape\small}
+\setlength{\affilsep}{1em}
+
+\newcommand{\smalllineskip}{\baselineskip=15pt}
+\newcommand{\keywords}[1]{{\footnotesize\hspace{0.68cm}{\textit{Keywords}: }#1\par
+  \vskip.7\baselineskip}}
+\renewenvironment{abstract}[0]{\small\rm
+        \begin{center}ABSTRACT
+        \\ \vspace{8pt}
+        \begin{minipage}{5.2in}\smalllineskip
+        \hspace{1pc}}{\end{minipage}\end{center}\vspace{-1pt}}
+\newcommand{\emailaddress}[1]{\newline{\sf#1}}
+
+\let\LaTeXtitle\title
+\renewcommand{\title}[1]{\LaTeXtitle{\large\textsf{\textbf{#1}}}}
+
+%%%TITLE
+\title{Chord diagrams category and its limit}
+\date{}
+
+%%AFFILIATIONS
+\author[1]{Sebastian Zając}
+\affil[1]{Faculty of Mathematics and Natural Studies Cardinal Stefan Wyszynski University in Warsaw Dewajtis 5, Warszawa, Poland \emailaddress{s.zajac@uksw.edu.pl}}
+
+%%DOCUMENT
+\begin{document}
+\maketitle
+
+%%PLEASE PUT YOUR ABSTRACT HERE
+\begin{abstract}{\it Chord diagrams} may be used to represent the inter-reletionships between some objects. They occur in many branches of matematics and physics like: geometry, topology, random matrix models, moduli space of Riemann surfaces. In physics they may be used to represent interactions between particles (Feynman diagrams).  Chord diagrams are also very important in a complicated problem of RNA and protein structure prediction in molecular biology. They represent so called secondary structure interactions and can be used to describe properties of this structures by a topological characteristic called genus.  Category theory is a natural framework for a description of chord diagrams. Because of amalgamation properties of this category it is possible to find so called Fraisse limit and apply Fraisse theory to them. I will also present some questions about category theory and they role in mathematical physics, logic and philosophy.
+
+
+\end{abstract}
+%%THE END OF ABSTRACT
+
+\end{document}

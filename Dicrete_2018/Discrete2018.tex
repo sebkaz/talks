@@ -1,0 +1,438 @@
+% !TEX TS-program = pdflatex
+% !TEX encoding = UTF-8 Unicode
+
+\documentclass{beamer}
+
+
+\mode<presentation>
+{
+  \usetheme{CambridgeUS}
+  % or ...
+
+  \setbeamercovered{transparent}
+  % or whatever (possibly just delete it)
+}
+
+
+\usepackage{amsmath,amssymb}
+\usepackage{graphicx}
+\usepackage[export]{adjustbox}
+\usepackage[english]{babel}
+% or whatever
+
+\usepackage[utf8]{inputenc}
+% or whatever
+
+\usepackage{times}
+\usepackage[T1]{fontenc}
+
+
+\title[Lepton masses and mixing in 2HDM] 
+{Lepton masses and mixing in 2HDM}
+
+%\subtitle
+%{Include Only If Paper Has a Subtitle}
+
+\author[S.Zajac et all] % (optional, use only with lots of authors)
+{S.~Zajac\inst{1} \and B.~Dziewit\inst{2} \and J.~Holeczek\inst{2} \and P.~Chaber\inst{2} \and M.~Richter\inst{2} \and M.~Zralek\inst{2}}
+% - Give the names in the same order as the appear in the paper.
+% - Use the \inst{?} command only if the authors have different
+%   affiliation.
+
+\institute[] % (optional, but mostly needed)
+{
+  \inst{1}%
+  Faculty of Mathematics and Natural Studies\\
+  Cardinal Stefan Wyszyński University
+  \and
+  \inst{2}%
+  Institute of Physics\\
+  University of Silesia}
+% - Use the \inst command only if there are several affiliations.
+% - Keep it simple, no one is interested in your street address.
+
+\date[DISCRETE 2018] % (optional, should be abbreviation of conference name)
+{6th Symposium on Prospects \\in the Physics of Discrete Symmetries}
+% - Either use conference name or its abbreviation.
+% - Not really informative to the audience, more for people (including
+%   yourself) who are reading the slides online
+
+
+% If you have a file called "university-logo-filename.xxx", where xxx
+% is a graphic format that can be processed by latex or pdflatex,
+% resp., then you can add a logo as follows:
+
+% \pgfdeclareimage[height=0.5cm]{university-logo}{university-logo-filename}
+% \logo{\pgfuseimage{university-logo}}
+
+
+
+% Delete this, if you do not want the table of contents to pop up at
+% the beginning of each subsection:
+\AtBeginSubsection[]
+{
+  \begin{frame}<beamer>{Outline}
+    \tableofcontents[currentsection,currentsubsection]
+  \end{frame}
+}
+
+
+% If you wish to uncover everything in a step-wise fashion, uncomment
+% the following command: 
+
+%\beamerdefaultoverlayspecification{<+->}
+
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+\begin{frame}{Outline}
+  \tableofcontents
+  % You might wish to add the option [pausesections]
+\end{frame}
+
+
+% Structuring a talk is a difficult task and the following structure
+% may not be suitable. Here are some rules that apply for this
+% solution: 
+
+% - Exactly two or three sections (other than the summary).
+% - At *most* three subsections per section.
+% - Talk about 30s to 2min per frame. So there should be between about
+%   15 and 30 frames, all told.
+
+% - A conference audience is likely to know very little of what you
+%   are going to talk about. So *simplify*!
+% - In a 20min talk, getting the main ideas across is hard
+%   enough. Leave out details, even if it means being less precise than
+%   you think necessary.
+% - If you omit details that are vital to the proof/implementation,
+%   just say so once. Everybody will be happy with that.
+
+\section{Motivation}
+
+\subsection{Masses and flavour symmetry problem}
+
+\begin{frame}{Masses And Flavour In Particle Physics}
+  % - A title should summarize the slide in an understandable fashion
+  %   for anyone how does not follow everything on the slide itself.
+
+Standard Model of particles cannot be considered as a complete theory.
+  \begin{itemize}
+  \item
+    Values of Mass - obtain just from experiments. 
+  \item
+    Many others problems: gravity, dark matter etc.
+  \end{itemize}
+  
+Higgs particle is a partial solutions to the problem.$$ Mass \to Yukawa \,\, couplings $$
+
+$$How\,\, to\,\, get\,\, Yukawa\,\, couplings\,\, ?$$ 
+\end{frame}
+
+\begin{frame}{Solutions}
+\begin{block}{Before 2012 $\theta_{13}=0$}
+One of the solutions:
+\begin{itemize}
+\item Flavour symmetry on the leptonic part of Yukawa Lagrangian
+\item TriBiMaximal (TBM) ($A_4$ symmetry group) mixing fully explained parameters of $U_{PMNS}$
+
+\end{itemize}
+ \end{block}
+ 
+On 8 March 2012, Daya Bay $\theta_{13}\neq0$ ($5.2\sigma$) 
+ 
+$$What's\,\, now ?  $$
+\end{frame}
+
+
+\subsection{Discrete flavour symmetry in SM}
+
+\begin{frame}{Mass in neutrino sector of SM}
+\begin{block}{}
+Conventionally Standard Model is theory with \alert{one Higgs doublet} and \alert{messles neutrinos}.
+\end{block}
+
+Add Masses with: 
+\begin{itemize}
+      \uncover<1->{\item
+        New three Dirac right handed fields, or\dots}
+      \uncover<2->{\item
+        Majorana mass from left handed fields.}
+    \end{itemize}
+
+ 
+\end{frame}
+
+\begin{frame}{Discrete symmetry in SM}
+Discrete symmetry for Yukawa couplings provides the relations for  three-dim mass matrices      
+$$A^{i \dag}_{L}\left( M_l M_l^\dag \right) A^{i}_{L} = \left( M_l M_l^\dag \right)$$   
+$$A^{i \dag}_{L}\left( M_\nu M_\nu^\dag \right) A^{i}_{L} = \left( M_\nu M_\nu^\dag \right)$$ 
+where $A^{i}_{L}=A_{L}(g_i)$, for $i = 1,2,\dots,N$ are \alert{3-dim representation matrices for the left-handed lepton doublets for some N-order falvour symmetry group $\mathcal{G}$ }
+
+The Schur's lemma implies that $M_l M_l^\dag $ and $M_\nu M_\nu^\dag$ are proportional to $Id$ matrices, so You get \alert{trivial lepton mixing matrix}.
+
+\end{frame}
+
+\begin{frame}{Discrete symmetry in SM}
+\begin{block}{What You can do ?}
+
+\begin{itemize}
+\item Break the family symmetry group by scalar singlet called \alert{flavon}.
+\item Add \alert{more Higgs multiplets} 
+\end{itemize}
+\end{block}
+
+\end{frame}
+
+
+\section{2HDM with a flavour symmetry}
+
+\subsection{Dirac case}
+\begin{frame}{2HDM type III}
+
+We consider Two--Higgs--Doublet--Model of type III with Yukawa Lagrangian
+$$ \mathcal{L}_Y = -\sum_{i=1,2} \sum_{\alpha, \beta= e,\mu,\tau}\left( (h_i^{(l)})_{\alpha,\beta}\left[ \bar{L}_{\alpha L}\tilde{\Phi}_i l_{\beta R}\right] + (h_i^{(\nu)})_{\alpha, \beta}\left[ \bar{L}_{\alpha L}\Phi_i \nu_{\beta R} \right]\right)$$
+
+Where: 
+$$L_{\alpha L}= {\nu_{\alpha L}\choose l_{\alpha L}}, \,\,\Phi_i = {\phi_i^0 \choose \phi_i^{-}}, \, i=1,2$$ are gauge doublets and $l_{\beta R}, \nu_{\beta R}$ are singlets.
+
+$h_i^{(l)}$, and $h_i^{(\nu)}$ are 3-dim Yukawa matrices. 
+
+\end{frame}
+
+\begin{frame}{2HDM type III}
+After spontaneous gauge symmetry breaking we get nonzero VEV's 
+$v_i=|{v_i}|e^{i\varphi_i}$.
+
+Mass matrices read as follows:
+
+$$M^l = -\frac{1}{\sqrt{2}}\left(v_1^{\ast}h_1^{(l)} + v_2^{\ast}h_2^{(l)} \right)$$
+$$M^\nu = \frac{1}{\sqrt{2}}\left(v_1h_1^{(\nu)} + v_2h_2^{(\nu)} \right)$$
+with VEV's restricted to: 
+$$\sqrt{|v_1|^2 +|v_2|^2}=\left(\sqrt{2}G_F\right)^{-1/2}\sim 246 GeV$$
+\end{frame}
+
+\begin{frame}{Family symmetry in 2HDM type III}
+For some discrete flavour group $\mathcal{G}$ Family Symmetry means that:
+\begin{itemize}
+\item After fields transformations Lagrangian \alert{does not change}
+\item We need 3-dim representation for: 
+\begin{eqnarray}
+L_{\alpha L}\to L_{\alpha L}'&=&(A_L)_{\alpha,\chi} L_{\chi L}, \nonumber \\ \nonumber l_{\beta R}\to l_{\beta R}'&=& (A_l^R)_{\beta,\delta}l_{\delta R},\\\nonumber \nu_{\beta R}\to \nu_{\beta R}'&=& (A_\nu^R)_{\beta,\delta}\nu_{\delta R}
+\end{eqnarray}
+\item And 2-dim representation for:
+$$\Phi_i\to \Phi_i'=(A_\Phi)_{ik}\Phi_k $$
+\end{itemize}
+
+\end{frame}
+\begin{frame}
+All transformation matrices are unitary.
+$$\mathcal{L}(L_{\alpha L},l_{\beta R},\nu_{\beta R},\Phi_i)=\mathcal{L}(L_{\alpha L}',l_{\beta R}',\nu_{\beta R}',\Phi_i')$$
+
+In the Higgs potential two possibilities:
+\begin{itemize}
+\item Coefficients in the potential remain the same
+$$ V(\Psi_1',\Psi_2') = V(\Psi_1,\Psi_2)$$
+\item Form of the Higgs potential does not change, but
+$$v_i' =(A_{\Psi})_{ik}v_k $$
+\end{itemize}
+Symmetry conditions can be written as an \alert{eigenequation} problem for direct product of unitary group representations to the eigenvalue 1
+\end{frame}
+
+\frame{
+For any group elements (so also for generators) we have: 
+$$((A_\Phi)^{\dag} \otimes (A_L)^{\dag} \otimes (A_l^R)^{T})_{k,\alpha,\delta;i,\beta,\gamma}(h_i^l)_{\beta,\gamma}=(h_k^l)_{\alpha,\delta}$$
+$$((A_\Phi)^{T} \otimes (A_L)^{\dag} \otimes (A_l^R)^{T})_{k,\alpha,\delta;i,\beta,\gamma}(h_i^\nu)_{\beta,\gamma}=(h_k^\nu)_{\alpha,\delta}$$
+The invariance equations for the mass matrices are not trivial, so we avoid the consequences of Schur's Lemma.
+$$(A_L) M^{l(\nu)}(A^R_l)^\dag = \frac{1}{\sqrt{2}}\sum_{i,k=1}^2 h^{l(\nu)}_i (A_\Phi)_{ik}v_k \neq M^{l(\nu)}$$
+
+We can obtain non-trivial mass matrices without additional flavon fields. 
+}
+
+
+\subsection{Majorana case}
+
+\begin{frame}
+
+For \alert{Majorana neutrinos} the Yukawa term must to be changed. 
+
+We can take (non-renormalizable Weinberg term): 
+$$\mathcal{L}^\nu_Y=-\frac{g}{M}\sum_{i,k=1}^2 \sum_{\alpha,\beta = e,\mu,\tau} h^{(i,k)}_{\alpha,\beta} \,(\bar{L}_{\alpha L}\Phi_i) \,(\Phi_k L^c_{\beta R})$$
+where $L_{\beta R}^c = C\bar{L}^T_{\beta L}$ are charge conjugated lepton doublet fields. 
+After symmetry breaking neutrino mass matrix has form: 
+$$M^\nu_{\alpha, \beta}=\frac{g}{M} \sum_{i,k=1}^2 v_iv_k h_{\alpha,\beta}^{(i,k)}$$
+Relation for Yukawa couplings:
+$$((A_\Phi)^T\otimes (A_\Phi)^T\otimes (A_L)^\dag \otimes (A_L)^\dag)_{k,m,\chi,\eta;i,j,\alpha,\beta}(h^{i,j}_{\alpha,\beta})=(h^{k,m}_{\chi,\eta}) $$
+\end{frame}
+
+\section{Numerical results}
+\begin{frame}{Candidates for the flavour group}
+The flavour group $\mathcal{G}$ in 2HDM cannot be arbitrary.
+\begin{itemize}
+\item The group must posses at least \alert{one 2-dim} and \alert{one 3-dim} irreducible (faithful) representation (10862 groups).
+\item Subgroup of $U(3)$ (reduce to 413 groups).
+\end{itemize}
+
+We use \texttt{GAP} system for computational discrete algebra ( \texttt{Small Groups Library} and \texttt{REPSN} packages)
+\end{frame}
+
+\begin{frame}
+
+\includegraphics[scale=0.23]{rys}
+
+\end{frame}
+
+\subsection{Dirac case}
+\begin{frame}{Dirac neutrinos}
+There exist \alert{$267$ groups} that gave $748672$ different combinations of 2 and 3 dim irred. representations that gave \alert{ 1-dim degeneration subspace for all generators}. 
+
+All possible solutions for Yukawa matrices can be expressed in 7 base forms. For example:.
+\begin{eqnarray}
+\label{OmegaR7}
+h_{1}^{(7)} = \left(
+\begin{array}{ccc}
+  1 & 0 & 0 \\
+  0 & \omega^{2} & 0 \\
+  0 & 0 & \omega \\
+\end{array}%
+\right), \quad
+h_{2}^{(7)} = \left(%
+\begin{array}{ccc}
+   1 & 0 & 0 \\
+  0 & \omega & 0 \\
+  0 & 0 & \omega^{2} \\
+\end{array}%
+\right)
+\end{eqnarray}
+\end{frame}
+
+\begin{frame}
+\begin{itemize}
+\item For Dirac neutrinos:
+$$\{h_1^{(\nu)},h_2^{(\nu)}\}= \{h_1^{(i)},e^{i\varphi}h_2^{(i)} \}$$
+\item For charged leptons:
+ $$\lbrace h_{1}^{(l)}, h_{2}^{(l)}\rbrace = \lbrace h_{2}^{(i)}, e^{-i(\delta_{l} +\varphi)} h_{1}^{(i)}\rbrace$$
+\end{itemize}
+where $\varphi$ is a phase distinctive for a group and $\delta_{l}=0,\pi$
+
+\end{frame}
+
+\begin{frame}
+For lepton masses and mixing matrix we construct $M^l M^{l\dag}$ $M^\nu M^{\nu\dag}$ (for all possible Yukawa matrices) as:
+\begin{eqnarray}
+M_{x}M_{x}^{\dagger} =  \vert c_{x}|^2
+\left(
+\begin{array}{ccc}
+  1+\kappa^{2} & \kappa e^{-i(\eta_{x} + 2 k \pi/3)} & \kappa e^{i(\eta_{x} - 2 k \pi/3)} \\
+  \kappa e^{i(\eta_{x} + 2 k \pi/3)} & 1+\kappa^{2} & \kappa e^{-i \eta_{x}} \\
+  \kappa e^{-i(\eta_{x} - 2 k \pi/3)} & \kappa e^{i\eta_{x}}& 1+\kappa^{2} \\
+\end{array} \right)
+\end{eqnarray}
+with $k=-1,0,+1$ and $\kappa = \vert v_{2}\vert/\vert v_{1}\vert$.
+
+\alert{The only difference lies in the phase $\eta_x$}.
+
+For Dirac neutrino : $\eta_\nu=\varphi+\varphi_2-\varphi_1$
+
+For charged leptons: $\eta_l=\delta_l+ \varphi+\varphi_2-\varphi_1$
+
+where $\varphi_i (i=1,2)$ are phases of the  VEVs $v_i$
+\end{frame}
+
+\begin{frame}
+After diagonalization: 
+$ U^{\dagger} \left(M_{x} M_{x}^{\dagger}\right) U= diag\left(m_{x1}^{2},m_{x2}^{2},m_{x3}^{2}\right)$, we obtain ($\omega=e^{\frac{2}{3}\pi i}$):
+\begin{itemize}
+\item  masses : 
+\begin{eqnarray}
+&m_{x1}^{2}&  =  |c_{x}|^2 \left(1+\kappa^{2} + 2  \kappa  cos\left(\eta_{x}\right)\right),  \nonumber \\
+&m_{x2}^{2}&  = |c_{x}|^2 \left(1+\kappa^{2} + 2  \kappa  sin\left(\eta_{x}-\frac{\pi}{6}\right)\right),  \nonumber \\
+&m_{x3}^{2}&  = |c_{x}|^2 \left(1+\kappa^{2} - 2  \kappa  sin\left(\eta_{x}+\frac{\pi}{6}\right)\right), \nonumber 
+\end{eqnarray}
+
+\item diagonaliztion matrix
+\begin{equation}
+U =    \frac{1}{\sqrt{3}}\left(
+\begin{array}{ccc}
+  e^{- \frac{2}{3} \pi i k} & \omega e^{- \frac{2}{3} \pi i k} & \omega^{2} e^{- \frac{2}{3} \pi i k} \\
+  1 & \omega^{2} & \omega \\
+ 1 & 1 & 1 \\ \nonumber
+\end{array} \right)
+\end{equation}
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Dirac case summary}
+\begin{itemize}
+\item $U$  matrix  does  not  depend  on  the  phase $\eta_x$,  so  it  is identical for charged leptons and for the neutrino. \alert{Therefore, it is not possible to reconstruct the correct mixing matrix}.  
+\item In the case $\delta_l= 0$ neutrinos and lepton masses are proportional and the mixing matrix is $3\times3$ identity matrix.
+\item For groups and for representations where $\delta_l=\pi$, masses of charged leptons and neutrinos are not proportional, but in this case we cannot reconstruct masses of the electron muon and tau
+\end{itemize} 
+
+\alert{The SM extended by one additional doublet of Higgs particles (2HDM) does not posses a discrete family symmetry that can explain the masses of charged leptons, masses of neutrions, and PMNS matrix.}
+
+\end{frame}
+
+\subsection{Majorana case}
+\begin{frame}
+There exist \alert{195 groups} that gave in total 20888 solutions that gave \alert{2-dim subspace for all generators}. 
+
+Yukawa matrices for Majorana neutrinos are given by:
+$$h^{(i,k)}=x \,p_{i,k} + y\, r_{i,k}$$
+where x,y are complex number and $\vec{p}$, $\vec{r}$ are 36-dim vectors.
+
+\begin{itemize}
+\item Majorana
+\begin{eqnarray}
+&h^{(1,1)}= x h_{2}^{(7)},\quad &h^{(1,2)}= y I_{3}, \nonumber \\
+&h^{(2,1)}= y e^{i \delta} I_{3},\quad  &h^{(2,2)}= x e^{i(\delta + 2\varphi)} h_{1}^{(7)}\nonumber
+\end{eqnarray}
+\item Charged leptons 
+$$
+\lbrace h_{1}^{(l)}, h_{2}^{(l)}\rbrace = \lbrace h_{2}^{(7)}, e^{-i( \delta_{l} +\varphi)} h_{1}^{(7)}\rbrace $$
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+Majorana mass matrix has more complicated form: 
+\begin{eqnarray}
+M^{\nu} =&&\frac{g}{2 M}\left(x \vert v_{1}\vert ^{2} e^{2 i \varphi_{1}}h_{2}^{(7)}+ y \vert v_{1} v_{2}\vert e^{i(\varphi_{1} + \varphi_{2})} I_{3} \left(1+e^{i\delta}\right) \right. \nonumber  \\
+&&+ \left. x \vert v_{2}\vert ^{2} e^{i(\delta+2(\varphi_{2}+\varphi))}h_{1}^{(7)}\right)\nonumber
+\end{eqnarray}
+
+but \alert{masses for charged leptons are given by the same formula as in the Dirac case}.
+
+Symmetry condition for the Majorana neutrinos does not give any new flavour symmetry group with new 3-dim repr. $A_L$. 
+
+\alert{There is no good solutions for mass of charged leptons} 
+\end{frame}
+
+\section*{Summary}
+
+\begin{frame}{Summary}
+
+  % Keep the summary *very short*.
+  \begin{itemize}
+  \item
+    We try to find some \alert{discrete flavour symmetry} to explain masses and mixing of leptons in SM and 2HDM (with  full Lagrangian symmetry)
+  \item
+    We have investigate discrete groups (\alert{subgroups of U(3)}) up to the order of 1025 (our choice)
+  \item
+    Models with \alert{Dirac and Majorana neutrino cases}. Yukawa matrices (for charged leptons) are independent from the nature of neutrino. 
+  \end{itemize}
+  
+  % The following outlook is optional.
+
+     \alert{ We haven't find a symmetry that gave valid masses of charged leptons}
+
+\end{frame}
+
+
+
+\end{document}
+
+
