@@ -15,3 +15,7 @@
 - Neutrino, Katowice 2019
 - Data Analysis, SGH, Warsaw 2019
 - Data Analysis, SAS, SGH, Warsaw 2019
+
+-------------
+2020
+
