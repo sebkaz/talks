@@ -16,6 +16,7 @@
 - Data Analysis, SGH, Warsaw 2019
 - Data Analysis, SAS, SGH, Warsaw 2019
 
--------------
-2020
-
+—————————————
+- SAS dla Praktyków, SAS, Warsaw 2020
+—————————————
+- Credit Scoring and Real Time, Warsaw 2021
