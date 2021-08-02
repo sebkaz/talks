@@ -18,5 +18,8 @@
 
 —————————————
 - SAS dla Praktyków, SAS, Warsaw 2020
+
 —————————————
 - Credit Scoring and Real Time, Warsaw 2021
+- SGGW, Warsaw 2021
+- Data Science Summit ML Edition, Warsaw 2021
