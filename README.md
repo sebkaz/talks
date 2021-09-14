@@ -23,3 +23,5 @@
 - Credit Scoring and Real Time, Warsaw 2021
 - SGGW, Warsaw 2021
 - Data Science Summit ML Edition, Warsaw 2021
+- SAS Advanced Analytics and Data Science, Warsaw 2021
+- 
