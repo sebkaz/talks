@@ -26,3 +26,6 @@
 - SAS Advanced Analytics and Data Science, Warsaw 2021
 - Współczesne metody i praktyki w ryzyku kredytowym, Warszawa 2021
 - The 8th Workshop Advanced Analytics and Data Science Business Analytics & Academia, SAS, Warsaw 2021
+
+----------------------------------------
+- Wykład na Politechnice Wrocławskiej 2022
