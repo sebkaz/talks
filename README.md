@@ -28,4 +28,9 @@
 - The 8th Workshop Advanced Analytics and Data Science Business Analytics & Academia, SAS, Warsaw 2021
 
 ----------------------------------------
-- Wykład na Politechnice Wrocławskiej 2022
+- NoAI - seminarium na Politechnice Wrocławskiej 2022
+- Quantum Machine Learning for analyzing multi- and hyperspectral satellite images - UJ Krakow 2022
+- Wykład powitalny na Zakładzie ZWiAD 2022
+- Outliers detection in complex networks via modularity - SIAM_N22 - 2022
+- Topological classification of graphs with genus trace - Toronto - 2022
+- IntoDIGITAL - Komputery i obliczenia kwantowe dla biznesu - SGH 2022
