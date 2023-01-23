@@ -34,3 +34,6 @@
 - Outliers detection in complex networks via modularity - SIAM_N22 - 2022
 - Topological classification of graphs with genus trace - Toronto - 2022
 - IntoDIGITAL - Komputery i obliczenia kwantowe dla biznesu - SGH 2022
+
+----------------------------------------
+- Introduction to Julia for Data Science - MIT 2023
