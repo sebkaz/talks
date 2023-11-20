@@ -39,4 +39,6 @@
 - Introduction to Julia for Data Science - MIT 2023
 - WAW 2023 Workshop - Toronto University 
 - WAW 2023 Conference - Fields Institute
+- Toronto University - Mathematical group semminar november 2023
+- Data Science Summit 2023 - Warszawa
 - Complex Network 2023 - France
