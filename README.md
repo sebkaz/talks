@@ -42,3 +42,7 @@
 - Toronto University - Mathematical group semminar november 2023
 - Data Science Summit 2023 - Warszawa
 - Complex Network 2023 - France
+
+--------------------------------------
+- Technologie Kwantowe w ML i optymalizacji - WZBO Poznań 
+
