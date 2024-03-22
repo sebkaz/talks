@@ -44,5 +44,7 @@
 - Complex Network 2023 - France
 
 --------------------------------------
-- Technologie Kwantowe w ML i optymalizacji - WZBO Poznań 
+- Technologie Kwantowe w ML i optymalizacji - WZBO Poznań
+- Quantum Machine Learning Conference 2024 - Quantum AI, Poland
+- International Conference on Computational Science ICCS 2024 - Malaga, Spain
 
