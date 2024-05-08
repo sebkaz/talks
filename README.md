@@ -46,5 +46,7 @@
 --------------------------------------
 - Technologie Kwantowe w ML i optymalizacji - WZBO Poznań
 - Quantum Machine Learning Conference 2024 - Quantum AI, Poland
+- Warszawskie Dni Informatyki 2024, Warsaw, Poland
+- Ai Lab - SGH Poland
 - International Conference on Computational Science ICCS 2024 - Malaga, Spain
 
