@@ -44,9 +44,11 @@
 - Complex Network 2023 - France
 
 --------------------------------------
-- Technologie Kwantowe w ML i optymalizacji - WZBO Poznań
-- Quantum Machine Learning Conference 2024 - Quantum AI, Poland
-- Warszawskie Dni Informatyki 2024, Warsaw, Poland
-- Ai Lab - SGH Poland
-- International Conference on Computational Science ICCS 2024 - Malaga, Spain
+- Technologie Kwantowe w ML i optymalizacji - WZBO Poznań 12.02.2024
+- Quantum Machine Learning Conference 2024 - Quantum AI, Poland 03.2024
+- Warszawskie Dni Informatyki 2024, Warsaw, Poland 
+- Ai Lab komputery kwantowe - SGH Poland 08.05.2024
+- Ai Lab grafy - SGH Poland 08.05.2024
+- International Conference on Computational Science ICCS 2024 - Malaga, Spain 03.07.2024
+- Washington DC / Toronto / Warsaw Quantum Computing Meetup 05.10.2024
 
